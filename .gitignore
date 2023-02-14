@@ -332,3 +332,7 @@ ASALocalRun/
 *.DS_Store
 
 out
+.env
+
+
+
