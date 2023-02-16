@@ -1,5 +1,4 @@
-let currentQuote ="";
-let charIndex = 0;
+let currentQuote = "quotes!";
 
 function setup() {
   createCanvas(400, 400);
@@ -12,22 +11,18 @@ function draw() {
   fill(147, 128, 156)
   textStyle(BOLD)
   textFont('Courier')
-  textSize(20);
+  textSize(7);
   text(currentQuote, width/2, height/2);
 }
 
-function keyPressed() {
-  if (charIndex >= currentQuote.length) {
+async function keyPressed() {
+  console.log("Pressed")
     // make a request to the API to get a new quote
-    httpGet("http://localhost:3000/generate", "text",
-     function(response) {
-      currentQuote = response;
-      charIndex = 0;
-    });
-  } else {
-    // show the next character
-    charIndex++;
-  }
+    let response = await fetch("http://localhost:3000/generate", 
+  {method: "post", body: {text:"Provide a quote : "}})
+  const data = await response.json();
+  inputString = data.text;
+      currentQuote = inputString;
 }
 
 
