@@ -23,7 +23,7 @@ app.post('/generate', async (req, res) => {
   const response = await openai.createCompletion({
   model: "text-davinci-003",
   prompt: req.body.text,
-  max_tokens: 20,
+  max_tokens: 10,
   temperature: 0,
 });
 res.send({text:req.body.text+response.data.choices[0].text});
