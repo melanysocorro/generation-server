@@ -4,7 +4,7 @@ This excerise serves to describe the daily experience of working in any field of
 
 Your efforts with these customers are seen as worthless to them, but you are given the freedom to be the bigger person regardless. 
 
-<i>*This project utilizes the Open API generation server. It was created using p5.js. 
+<i>*This project utilizes the Open API generation server. It was created using p5.js.</i>
 
 ## Instructions
 - Press the <strong> "Start" </strong> button on the bottom left corner. 
