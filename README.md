@@ -1,6 +1,6 @@
 # An Average Day in Customer Service
 
-This excerise serves to describe the daily experience of working in any field of customer service. You will encounter horrid customers, you will be called names, and you will be treated as a vessle that serves only to attain unattainable expectations. 
+This excerise serves to describe the daily experience of working in any field of customer service. You will encounter horrid customers, you will be called names, and you will be treated as a vessel that serves only to attain unattainable expectations. 
 
 Your efforts with these customers are seen as worthless to them, but you are given the freedom to be the bigger person regardless. 
 
